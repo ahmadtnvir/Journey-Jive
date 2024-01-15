@@ -11,8 +11,8 @@
   --color3: #424247;
 }
 
-.colorful-text{
-    color: var(--color2);
+.colorful-text {
+  color: var(--color2);
 }
 
 body {
@@ -45,11 +45,10 @@ body {
   align-items: center;
 }
 
-
 .logo > h1 {
-    color: var(--color1);
-    font-size: 36px;
-    font-weight: 800;
+  color: var(--color1);
+  font-size: 36px;
+  font-weight: 800;
 }
 
 .nav-items-container {
@@ -72,8 +71,8 @@ body {
   font-weight: 400;
 }
 
-.hemberger-icon{
-    display: none;
+.hemberger-icon {
+  display: none;
 }
 
-
+/* nav section end */

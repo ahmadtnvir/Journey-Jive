@@ -1,14 +1,18 @@
 @media screen and (max-width: 600px) {
-    .nav-items-container{
-        display: none;
-    }
+  /* nav section start */
 
-    .logo{
-        width: 80%;
-    }
+  .nav-items-container {
+    display: none;
+  }
 
-    .hemberger-icon{
-        display: block;
-        /* width: 20%; */
-    }
+  .logo {
+    width: 80%;
+  }
+
+  .hemberger-icon {
+    display: block;
+    /* width: 20%; */
+  }
+
+  /* nav section end */
 }
