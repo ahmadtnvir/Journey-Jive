@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+    .nav-items-container{
+        display: none;
+    }
+
+    .logo{
+        width: 80%;
+    }
+
+    .hemberger-icon{
+        display: block;
+        /* width: 20%; */
+    }
+}
