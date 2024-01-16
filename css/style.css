@@ -452,16 +452,6 @@ main {
   margin-top: 100px;
 }
 
-.deals-discounts-section-container {
-}
-
-/* .deals-discounts-section-details{
-
-} */
-
-.deals-discounts-section-packages {
-}
-
 .packages-background {
   background-image: url("../Images/Rectangle\ 12\ \(1\).png");
   background-repeat: no-repeat;
@@ -498,13 +488,15 @@ main {
   margin-top: 26px;
 }
 
-.packages-white-nav-details > h5 {
+.packages-white-nav-details > h5,
+.newsletter-section-details-container > h5 {
   color: var(--color1);
   font-size: 24px;
   font-weight: 800;
 }
 
-.packages-white-nav-details > p {
+.packages-white-nav-details > p,
+.newsletter-section-details-container > p {
   color: #5a5a5d;
   font-size: 16px;
   font-weight: 400;
@@ -563,3 +555,85 @@ main {
   border-radius: 16px;
 }
 /* Get lost section end */
+
+/* Newsletter section start */
+
+.newsletter-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.newsletter-section-details-container {
+  border: 1px solid var(--color2);
+  border-radius: 16px;
+  width: 50%;
+  padding: 30px 30px 0 30px;
+}
+
+.newsletter-section-img {
+  width: 50%;
+}
+
+.newsletter-section-img img {
+  width: 100%;
+  /* position: relative; */
+}
+
+.input-items {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-items input {
+  width: 393px;
+  height: 52px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1313180d;
+  padding: 10px 20px;
+}
+
+#subscribe-btn {
+  background: var(--color2);
+  color: var(--color4);
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.newsletter-section-img .offer {
+  width: 300px;
+  height: 80px;
+  border: none;
+  border-radius: 16px;
+  background: var(--color2);
+  color: var(--color4);
+  text-align: center;
+  padding: 5px 0;
+  transform: rotate(-19.628deg);
+}
+
+.offer small {
+  font-size: 24px;
+  font-weight: 400;
+  transform: rotate(-19.628deg);
+}
+
+.offer h3 {
+  font-size: 25px;
+  font-weight: 800;
+  /* transform: rotate(-19.628deg); */
+}
+
+.newsletter-section .newsletter-section-img .offer {
+  /* position: absolute;
+    left: 72%; */
+  /* bottom: 1345%; */
+  display: none;
+}
+/* Newsletter section end */

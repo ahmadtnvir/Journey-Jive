@@ -213,4 +213,18 @@
   }
 
   /* deals & discounts section end */
+
+  /* Newsletter section start */
+  .newsletter-section {
+    flex-direction: column;
+  }
+
+  .newsletter-section-details-container {
+    width: 100%;
+  }
+
+  .newsletter-section-img {
+    width: 100%;
+  }
+  /* Newsletter section end */
 }
