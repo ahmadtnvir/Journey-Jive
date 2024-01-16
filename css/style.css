@@ -223,3 +223,145 @@ main {
 }
 
 /* popular-tours-section end */
+
+/* Destination section start */
+
+.destination-section {
+  border: 2px solid violet;
+  margin-top: 100px;
+}
+
+.destination-section-container {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.destination-section-container > h2 {
+  color: var(--color1);
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.destination-section-container > p {
+  color: var(--color6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 25px 0 50px 0;
+}
+
+.destination-section-img-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  height: 950px;
+}
+
+.grid-1 {
+  background-image: url("../Images/Rectangle\ 5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-column: 1 / span 6;
+  grid-row: 1 / span 1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color4);
+  font-size: 28px;
+  font-weight: 800;
+}
+.grid-2 {
+  background-image: url("../Images/Rectangle\ 8.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-column: 7 / span 6;
+  grid-row: 1 / span 1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color4);
+  font-size: 28px;
+  font-weight: 800;
+}
+.grid-3 {
+  background-image: url("../Images/Rectangle\ 6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color4);
+  font-size: 28px;
+  font-weight: 800;
+}
+.grid-4 {
+  background-image: url("../Images/Rectangle\ 7.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-column: 4 / span 6;
+  grid-row: 2 / span 1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color4);
+  font-size: 28px;
+  font-weight: 800;
+}
+.grid-5 {
+  background-image: url("../Images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-column: 10 / span 3;
+  grid-row: 2 / span 1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color4);
+  font-size: 28px;
+  font-weight: 800;
+}
+.grid-6 {
+  background-image: url("../Images/Rectangle\ 11.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-column: 1 / span 5;
+  grid-row: 3 / span 1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color4);
+  font-size: 28px;
+  font-weight: 800;
+}
+.grid-7 {
+  background-image: url("../Images/Rectangle\ 10.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-column: 6 / span 7;
+  grid-row: 3 / span 1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color4);
+  font-size: 28px;
+  font-weight: 800;
+}
+
+/* Destination section end */
