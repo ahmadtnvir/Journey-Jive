@@ -9,6 +9,8 @@
   --color1: #131318;
   --color2: #ff5400;
   --color3: #424247;
+  --color4: #fff;
+  --color5: #13131880;
 }
 
 .colorful-text {
@@ -17,6 +19,7 @@
 
 body {
   width: 90%;
+  /* height: 100%; */
   border: 4px dashed red;
   margin: 50px auto;
 }
@@ -45,7 +48,7 @@ body {
   align-items: center;
 }
 
-.logo > h1 {
+.logo > h3 {
   color: var(--color1);
   font-size: 36px;
   font-weight: 800;
@@ -76,3 +79,87 @@ body {
 }
 
 /* nav section end */
+
+/* banner-section start */
+.banner-section {
+  border-radius: 16px;
+  background-image: linear-gradient(to bottom, #131318cc, #13131800),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  margin: 50px 0 100px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.banner-section-title > h1 {
+  color: var(--color4);
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.banner-section-descreption > p {
+  color: var(--color4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 25px 0 65px 0;
+  text-align: center;
+}
+
+.input-field-container {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  background: #ffffff4d;
+}
+
+.input-field-container > label {
+  padding: 10px 20px;
+  background: var(--color4);
+  border: none;
+  border-radius: 8px;
+  margin-right: 24px;
+}
+
+.input-field-container > label > input {
+  border: none;
+  color: var(--color5);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.input-field-container > label > select {
+  border: none;
+  color: var(--color5);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.input-field-container > button {
+  padding: 10px 20px;
+  background: var(--color2);
+  border: none;
+  border-radius: 8px;
+}
+
+#find-btn {
+  color: var(--color4);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* banner section end  */
