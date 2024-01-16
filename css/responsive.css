@@ -73,18 +73,21 @@
 
   /* Destination section start */
   .destination-section-container,
-  .chooseUs-container {
+  .chooseUs-container,
+  .deals-discounts-section-details {
     width: 80%;
   }
 
   .destination-section-container > h2,
-  .chooseUs-container > h2 {
+  .chooseUs-container > h2,
+  .deals-discounts-section-details > h2 {
     font-size: 20px;
     font-weight: 800;
   }
 
   .destination-section-container > p,
-  .chooseUs-container > p {
+  .chooseUs-container > p,
+  .deals-discounts-section-details > p {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -155,4 +158,59 @@
     grid-row: 3 / span 1;
   }
   /* Choose us section end */
+
+  /* deals & discounts section start */
+  .packages-background {
+    justify-content: center;
+    height: 700px;
+  }
+
+  .packages-white {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+  }
+
+  #background {
+    justify-content: center;
+  }
+
+  .packages-white {
+    padding: 20px;
+  }
+
+  .packages-white-nav {
+    flex-wrap: wrap;
+  }
+
+  .packages-white-nav-details {
+    margin-top: 10px;
+  }
+
+  .packages-white-nav-details > h5 {
+    font-size: 20px;
+  }
+
+  .packages-white-nav-details > p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 5px 0 5px 0;
+  }
+
+  .packages-white-nav-details > h6 {
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+
+  .packages-white-nav-details > button {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 6px 12px;
+  }
+
+  .all-btn {
+    display: none;
+  }
+
+  /* deals & discounts section end */
 }
