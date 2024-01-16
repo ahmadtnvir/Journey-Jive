@@ -72,16 +72,19 @@
   /* popular-tours-section end */
 
   /* Destination section start */
-  .destination-section-container {
+  .destination-section-container,
+  .chooseUs-container {
     width: 80%;
   }
 
-  .destination-section-container > h2 {
+  .destination-section-container > h2,
+  .chooseUs-container > h2 {
     font-size: 20px;
     font-weight: 800;
   }
 
-  .destination-section-container > p {
+  .destination-section-container > p,
+  .chooseUs-container > p {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -124,4 +127,32 @@
     grid-row: 7 / span 1;
   }
   /* Destination section end */
+
+  /* Choose us section start */
+
+  /* .chooseUs-section {
+    max-height: 1050px;
+  } */
+  .chooseUs-grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(3, 1fr);
+    height: 600%;
+  }
+
+  .hotels {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .service {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+  }
+
+  .guarantee {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+  }
+  /* Choose us section end */
 }
