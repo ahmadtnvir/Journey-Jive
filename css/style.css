@@ -18,17 +18,10 @@
   color: var(--color2);
 }
 
-body {
+header,
+main {
   width: 90%;
-  /* height: 100%; */
-  border: 4px dashed red;
   margin: 50px auto;
-}
-
-/* header section start */
-
-.header {
-  border: 2px dotted black;
 }
 
 /* nav section start */
@@ -165,16 +158,13 @@ body {
 
 /* banner section end  */
 
-main {
-  border: 2px solid blue;
-}
-
 /* popular-tours-section start */
 
 .popular-tours-section {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 
 .popular-tours-section-details-container {
@@ -229,7 +219,7 @@ main {
 
 .destination-section,
 .chooseUs-section {
-  border: 2px solid violet;
+  /* border: 2px solid violet; */
   margin-top: 100px;
 }
 
@@ -448,7 +438,7 @@ main {
 
 /* deals & discounts section start */
 .deals-discounts-section {
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
   margin-top: 100px;
 }
 
@@ -637,3 +627,54 @@ main {
   display: none;
 }
 /* Newsletter section end */
+
+.footer-section {
+  width: 100%;
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-section-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-logo h3 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.footer-description {
+  width: 770px;
+  margin: 0 auto;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.footer-icons {
+  width: 170px;
+  margin: 32px auto;
+}
+
+.copy {
+  width: 175px;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 auto;
+}

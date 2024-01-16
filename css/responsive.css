@@ -227,4 +227,9 @@
     width: 100%;
   }
   /* Newsletter section end */
+
+  .footer-description {
+    width: 80%;
+    margin-top: 17px;
+  }
 }
