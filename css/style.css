@@ -11,6 +11,7 @@
   --color3: #424247;
   --color4: #fff;
   --color5: #13131880;
+  --color6: #131318b3;
 }
 
 .colorful-text {
@@ -163,3 +164,62 @@ body {
 }
 
 /* banner section end  */
+
+main {
+  border: 2px solid blue;
+}
+
+/* popular-tours-section start */
+
+.popular-tours-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular-tours-section-details-container {
+  width: 50%;
+}
+
+.popular-tours-section-details-container > h2 {
+  color: var(--color1);
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.popular-tours-section-description {
+  color: var(--color6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 25px 20px 25px 0;
+}
+
+.popular-tours-section-description .list-items {
+  margin: 20px 0 20px 30px;
+}
+
+.popular-tours-section-description .list-items ul li {
+  margin-bottom: 10px;
+}
+
+.more-btn {
+  width: 174px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+  background: var(--color2);
+  color: var(--color4);
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.popular-tours-section-img {
+  width: 50%;
+}
+
+.popular-tours-section-img img {
+  width: 100%;
+}
+
+/* popular-tours-section end */

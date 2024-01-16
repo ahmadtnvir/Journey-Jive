@@ -51,4 +51,23 @@
   }
 
   /* banner section end  */
+
+  /* popular-tours-section start */
+  .popular-tours-section {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 15px;
+  }
+
+  .popular-tours-section-details-container {
+    width: 100%;
+  }
+
+  .popular-tours-section-img {
+    width: 100%;
+  }
+
+  /* popular-tours-section end */
 }
