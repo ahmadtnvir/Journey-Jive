@@ -185,6 +185,7 @@ main {
   color: var(--color1);
   font-size: 40px;
   font-weight: 800;
+  line-height: 60px;
 }
 
 .popular-tours-section-description {
@@ -550,3 +551,15 @@ main {
   background: var(--color2);
 }
 /* deals & discounts section end */
+
+/* Get lost section start */
+#bold-list {
+  color: var(--color1);
+  font-weight: 700;
+}
+
+#video iframe {
+  width: 100%;
+  border-radius: 16px;
+}
+/* Get lost section end */
