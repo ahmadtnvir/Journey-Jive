@@ -523,6 +523,7 @@ main {
 .all-btn {
   text-align: center;
 }
+
 .package-btn {
   color: var(--color4);
   font-size: 20px;
@@ -564,11 +565,11 @@ main {
 
 .newsletter-section-img {
   width: 50%;
+  position: relative;
 }
 
 .newsletter-section-img img {
   width: 100%;
-  /* position: relative; */
 }
 
 .input-items {
@@ -611,20 +612,17 @@ main {
 .offer small {
   font-size: 24px;
   font-weight: 400;
-  transform: rotate(-19.628deg);
 }
 
 .offer h3 {
   font-size: 25px;
   font-weight: 800;
-  /* transform: rotate(-19.628deg); */
 }
 
-.newsletter-section .newsletter-section-img .offer {
-  /* position: absolute;
-    left: 72%; */
-  /* bottom: 1345%; */
-  display: none;
+.offer {
+  position: absolute;
+  left: 44.5%;
+  bottom: 14%;
 }
 /* Newsletter section end */
 
